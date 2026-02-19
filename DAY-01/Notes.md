@@ -239,13 +239,14 @@ javac -version
 Search Java packages:
 
 ```bash
-sudo yum search java | grep -i openjdk
+dnf search corretto
 ```
 
 Install Java 21:
 
 ```bash
-yum install java-21-openjdk-devel -y
+dnf install java-21-amazon-corretto-devel -y
+
 ```
 
 ---
